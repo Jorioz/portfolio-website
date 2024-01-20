@@ -23,7 +23,7 @@ function Projects() {
         </p>
 
         <button
-          className={`flex items-center justify-center bg-blue-100 hover:bg-blue-200 w-auto h-4 text-black p-7 text-xs md:text-sm font-dos`}
+          className={`flex items-center justify-center bg-blue-100 opacity-85 hover:bg-blue-200 w-auto h-4 text-black p-7 text-xs md:text-sm font-dos`}
           onClick={handlePlayClick}
         >
           Play Here!
