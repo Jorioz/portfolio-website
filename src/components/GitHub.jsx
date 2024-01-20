@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import githubAscii from "githubAscii.js?url";
+import githubAscii from "./githubAscii";
 
 function GitHub() {
   const [countdown, setCountdown] = useState(3);

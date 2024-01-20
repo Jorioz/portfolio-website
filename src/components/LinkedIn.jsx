@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import linkedinAscii from "linkedinAscii.js?url";
+import linkedinAscii from "./linkedinAscii";
 
 function LinkedIn() {
   const [countdown, setCountdown] = useState(3);

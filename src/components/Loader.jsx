@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ascii from "ascii.js?url";
+import ascii from "./ascii.js";
 import { PowerGlitch } from "powerglitch";
 
 function Loader({ onClick, onKeyPress }) {
