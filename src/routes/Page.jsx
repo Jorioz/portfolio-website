@@ -98,7 +98,9 @@ function Page() {
               </p>
               <p
                 className={`hover:bg-red-800 w-full text-left px-5 cursor-pointer glitch ${
-                  isProjectsHovered ? "bg-red-800" : ""
+                  currentComponent === "Projects" || isProjectsHovered
+                    ? "bg-red-800"
+                    : ""
                 }`}
                 ref={projectsRef}
                 onClick={() => handleComponentChange("Projects")}
@@ -138,7 +140,9 @@ function Page() {
               </p>
               <p
                 className={`text-blue-100 w-full px-5 glitch ${
-                  isProjectsHovered ? "bg-red-800" : ""
+                  currentComponent === "Projects" || isProjectsHovered
+                    ? "bg-red-800"
+                    : ""
                 }`}
               >
                 --FILE-&gt;
