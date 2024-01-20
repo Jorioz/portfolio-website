@@ -1,5 +1,5 @@
 import React from "react";
-import welcomeAscii from "/welcomeAscii.js?url";
+import welcomeAscii from "welcomeAscii.js?url";
 
 function Home() {
   return (

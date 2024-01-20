@@ -1,5 +1,5 @@
 import React from "react";
-import albumleAscii from "/albumleAscii.js?url";
+import albumleAscii from "albumleAscii.js?url";
 
 function Projects() {
   const handlePlayClick = () => {
